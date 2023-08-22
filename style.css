@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans";
+}
+header{
+    background-color: black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#top-container{
+    background-image: url("https://kq-storage.s3.ap-south-1.amazonaws.com/Github/groove-bg%5B1%5D.png");
+    height: 100vh;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 15%;
+}
+img{
+    height: 40px;
+    display: block;
+    margin: auto;
+}
+#store-btn{
+    padding: 10px;
+    background-color: #27ae60;
+    border-width: 0;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#heading{
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+#tagline{
+    font-size: large;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+.qty-box{
+    width: 40px;
+}
+.item-img{
+    width: 60px;
+    height: 60px;
+}
+#table-heading{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+table{
+    margin: auto;
+}
+#table-head{
+    background-color: #27ae60;
+    color: white;
+}
+.bottom-txt{
+    text-align: center;
+}
+.inline{
+    display: block;
+    margin: auto;
+}
+#mobile-box{
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+#bottom-btn{
+    padding: 7px 20px;
+    background-color: #27ae60;
+    color: white;
+    border: 0;
+    font-weight: bold;
+}
+#bottom-btn:hover{
+    cursor: pointer;
+}
+#thanks-msg{
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px 0;
+    margin-top: 30px;
+}
+tr:hover{
+    background-color: beige;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
